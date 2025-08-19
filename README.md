@@ -30,8 +30,10 @@ Wuzzuf Job Automation is an end-to-end automation testing project for the Wuzzuf
 3. Clone the repository:
    ```bash
    git clone <repository-url>
-4. cd wuzzuf-job-automation
-5. mvn clean install
+4. ```bash
+cd wuzzuf-job-automation
+5. ```bash
+ mvn clean install
 
 ---
 
@@ -39,10 +41,8 @@ Wuzzuf Job Automation is an end-to-end automation testing project for the Wuzzuf
 
 1. Open **Git Bash** (or terminal) in the project directory.
 2. Execute the following command to run the TestNG suite:
-bash
+ ```bash
 mvn test
-
-
 3. After the test execution, view the generated reports in the `/test-output` or `/reports` (ExtentReports) directory.
 
 ---

@@ -1,5 +1,4 @@
 # WUZZUF-job-automation
-# Wuzzuf Job Automation
 
 ## Description
 Wuzzuf Job Automation is an end-to-end automation testing project for the Wuzzuf job platform. It simulates real user interactions, including account registration with random data, profile setup, job search, saving jobs, and account deletion. Built with Java, Selenium, TestNG, and Maven, this project demonstrates full workflow testing across multiple browsers using XML configurations and generates detailed reports for analysis.
@@ -31,3 +30,38 @@ Wuzzuf Job Automation is an end-to-end automation testing project for the Wuzzuf
 3. Clone the repository:
    ```bash
    git clone <repository-url>
+4. cd wuzzuf-job-automation
+5. mvn clean install
+
+---
+
+## 🚀 How to Run
+
+1. Open **Git Bash** (or terminal) in the project directory.
+2. Execute the following command to run the TestNG suite:
+bash
+mvn test
+
+
+3. After the test execution, view the generated reports in the `/test-output` or `/reports` (ExtentReports) directory.
+
+---
+
+## 📁 Repository Contents
+
+The project contains the following files and directories:
+
+- **`src/`** – All Java source files and test scripts.
+- **`pom.xml`** – Maven dependencies and configuration.
+- **`testng.xml`** – Cross-browser test configuration for running tests across different browsers.
+- **`reports/`** – ExtentReports output with generated HTML test reports.
+- **`README.md`** – Project documentation for setup, usage, and details.
+
+---
+
+## 📸 Screenshots & Demo
+
+- **Screenshot**: [images/screenshot.png](images/screenshot.png)
+- **Demo Video**: [videos/demo.mp4](videos/demo.mp4)
+
+This project showcases automation testing skills and is intended for portfolio and learning purposes.

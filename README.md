@@ -57,7 +57,7 @@ The project contains the following files and directories:
 
 - **`src/`** – All Java source files and test scripts.
 - **`pom.xml`** – Maven dependencies and configuration.
-- **`testng.xml`** – Cross-browser test configuration for running tests across different browsers.
+- **`runner.xml`** – Cross-browser test configuration for running tests across different browsers.
 - **`reports/`** – ExtentReports output with generated HTML test reports.
 - **`README.md`** – Project documentation for setup, usage, and details.
 

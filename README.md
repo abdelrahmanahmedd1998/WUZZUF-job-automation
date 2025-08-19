@@ -36,7 +36,7 @@ Wuzzuf Job Automation is an end-to-end automation testing project for the Wuzzuf
 2. Install **Maven**.
 3. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone <git@github.com:abdelrahmanahmedd1998/WUZZUF-job-automation.git>
 cd wuzzuf-job-automation
 mvn clean install
 ```

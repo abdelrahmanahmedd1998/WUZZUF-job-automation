@@ -28,13 +28,11 @@ Wuzzuf Job Automation is an end-to-end automation testing project for the Wuzzuf
 1. Ensure you have **Java 8 or higher** installed.
 2. Install **Maven**.
 3. Clone the repository:
-   ```bash
-   git clone <repository-url>
-4. ```bash
+```bash
+git clone <repository-url>
 cd wuzzuf-job-automation
-5. ```bash
- mvn clean install
-
+mvn clean install
+```
 ---
 
 ## 🚀 How to Run
@@ -44,8 +42,7 @@ cd wuzzuf-job-automation
  ```bash
 mvn test
 3. After the test execution, view the generated reports in the `/test-output` or `/reports` (ExtentReports) directory.
-
----
+```
 
 ## 📁 Repository Contents
 

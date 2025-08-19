@@ -1,0 +1,10 @@
+<suite name="End to end Wuzzuf"  >
+    <test name="apply for jobs -chrome ">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="wuzzufTests">
+            </class>
+        </classes>
+    </test>
+
+</suite>

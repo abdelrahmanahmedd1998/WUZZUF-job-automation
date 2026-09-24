@@ -9,7 +9,6 @@
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-Jenkins%20%2F%20GitHub%20Actions-blueviolet)
 ## Description
 Wuzzuf Job Automation is an end-to-end automation testing project for the Wuzzuf job platform. It simulates real user interactions, including account registration with random data, profile setup, job search, saving jobs, and account deletion. Built with Java, Selenium, TestNG, and Maven, this project demonstrates full workflow testing across multiple browsers using XML configurations and generates detailed reports for analysis.
-this is VC
 
 ## Project Flow
 1. **Account Registration**  
